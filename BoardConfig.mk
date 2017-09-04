@@ -19,6 +19,6 @@ include device/yu/tomato/board/*.mk
 
 # Assertions
 TARGET_BOARD_INFO_FILE := device/yu/tomato/board-info.txt
-
+SMALL_BOOTANIMATION_SIZE := 720
 # Inherit from proprietary files
 include vendor/yu/tomato/BoardConfigVendor.mk
