@@ -32,7 +32,8 @@ $(call inherit-product, vendor/yu/tomato/tomato-vendor.mk)
 PRODUCT_PACKAGES +=\
 MiXplorer \
 Phonograph \
-via
+via \
+lawnchair
 
 PRODUCT_PROPERTY_OVERRIDES += \
 pm.sleep_mode=1 \
