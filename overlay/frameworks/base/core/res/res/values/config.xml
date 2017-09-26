@@ -115,8 +115,8 @@
             32 - Camera
             64 - Volume rocker
          For example, a device with Home, Back and Menu keys would set this
-         config to 7. -->
-    <integer name="config_deviceHardwareWakeKeys">64</integer>
+         config to 7. 
+    <integer name="config_deviceHardwareWakeKeys">64</integer> -->
 
     <!-- Control the behavior when the user long presses the home button.
             0 - Nothing
@@ -139,8 +139,8 @@
             5 - In-app Search
          This needs to match the constants in
          policy/src/com/android/internal/policy/impl/PhoneWindowManager.java
-    -->
-    <integer name="config_longPressOnMenuBehavior">2</integer>
+    
+    <integer name="config_longPressOnMenuBehavior">2</integer> -->
 
     <!-- Control the behavior when the user double-taps the home button.
             0 - Nothing
@@ -173,8 +173,8 @@
     <!-- Is the notification LED intrusive? Used to decide if there should be a disable option -->
     <bool name="config_intrusiveNotificationLed">true</bool>
 
-    <!-- Whether device supports double tap to wake -->
-    <bool name="config_supportDoubleTapWake">true</bool>
+    <!-- Whether device supports double tap to wake 
+    <bool name="config_supportDoubleTapWake">true</bool> -->
 
     <!-- Enable doze mode
          ComponentName of a dream to show whenever the system would otherwise have gone to sleep. -->
@@ -185,8 +185,8 @@
          that can be set by the user. -->
     <integer name="config_screenBrightnessDoze">10</integer>
 
-    <!-- Enable LockScreenBlur -->
-    <bool name="config_uiBlurEnabled">true</bool>
+    <!-- Enable LockScreenBlur 
+    <bool name="config_uiBlurEnabled">true</bool> -->
 
     <!-- If true, the doze component is not started until after the screen has been
           turned off and the screen off animation has been performed. -->
